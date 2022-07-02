@@ -8,7 +8,7 @@ public class MyHashMap<K, V> implements MyMap<K, V> {
 
     static class Bucket<K, V> implements Map.Entry<K, V> {
         private int hash;
-        private K key;
+        final private K key;
         private V value;
         private Bucket<K, V> next;
 
