@@ -7,6 +7,7 @@ public class Test {
         MyHashMap<Integer, String> test = new MyHashMap<>();
         test.put(1, "qweqe");
         test.put(2, "adadsa");
+        test.put(3, "firstCommit");
         test.put(null,"asd");
         test.put(null, "asdasd");
         test.put(3,null);
